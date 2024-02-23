@@ -1,0 +1,13 @@
+.trip-details {
+  background-image: url("../../../public/assets/background//background.png");
+  background-size: cover;
+  color: white;
+  margin-left: 30px;
+}
+.trip-details__content {
+  border: black 1px solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px 120px 20px;
+}

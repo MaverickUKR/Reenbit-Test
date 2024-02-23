@@ -1,0 +1,90 @@
+.modal-wrapper {
+  background: rgb(167, 164, 164, 0.65);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 10%;
+  z-index: 1000;
+  background-color: #fefefe;
+  margin: auto 10%;
+  box-shadow: rgba(167, 164, 164, 0.95) 0 3px 9px 2px;
+}
+
+.modal__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 0 5%;
+}
+
+.modal__content {
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 5px 2vw 40px 2vw;
+}
+
+.date-input,
+.select-input {
+  padding: 10px;
+  border-radius: 3px;
+  width: -moz-available;
+  border: rgb(201, 193, 193) 2px solid;
+  color: rgb(158, 148, 148, 0.8);
+  font-weight: 900;
+  margin: 10px 0;
+}
+
+.modal__footer {
+  margin: 0 10px 15px auto;
+}
+
+.close {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+label::before {
+  content: "* ";
+  color: rgb(228, 56, 56);
+}
+
+button {
+  background-color: #fefefe;
+  border-radius: 3px;
+  border: rgb(185, 181, 181) 1px solid;
+  color: rgb(49, 48, 48);
+  cursor: pointer;
+  letter-spacing: normal;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 15px;
+}
+
+button:hover {
+  background-color: #4287f5;
+  color: #fefefe;
+  transform: translateY(0);
+  transition-duration: 0.35s;
+}
+
+button:active {
+  transform: translateY(2px);
+  transition-duration: 0.35s;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+}

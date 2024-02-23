@@ -1,0 +1,13 @@
+.forecast {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+.forecast-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  margin: 0 10px;
+  padding: 10px 10px;
+  align-items: center;
+}
